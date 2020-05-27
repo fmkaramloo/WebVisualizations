@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en-us">
+
+<head>
+
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <title>Bootstrap Visualization Analysis</title>
+
+    <!-- Bootstrap CSS -->
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css"integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm"
+  crossorigin="anonymous">
+  <!--CSS Link-->
+  <link rel="stylesheet" type="text/css" href="Style.css">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <!--fontawesome kit Link-->
+  <script src="https://kit.fontawesome.com/7bbeb5516e.js" crossorigin="anonymous"></script>
+
+</head>
+
+<body>
+<!-- Navigation Section -->
+<nav class="navbar navbar-expand-md navbar-light bg-light sticky-top" style="background-color: #dde3e7;">
+<div class="container-fluid">
+    <a class="navbar-brand" href="Landing.html"><img src="Images/Logo.png">Lattitude</a>
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarResponsive">
+        <span class="navbar-toggler-icon"></span>
+    </button>
+                        
+    <div class="collapse navbar-collapse" id="navbarResponsive">
+        <ul class="nav nav">
+            <li class="nav-item">
+                <a class="nav-link" href="Comparison.html">Comparison <span class="sr-only">(current)</span></a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="data.html">data</a>
+            </li>
+            <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                    Plot
+                </a>
+                    <div class="dropdown-menu" aria-labelledby="dropdownMenuLink">
+                        <a class="dropdown-item" href="MaxTemp.html">Max Temperature</a>
+                        <a class="dropdown-item" href="Humidity.html">Humidity</a>
+                        <a class="dropdown-item" href="Cloudiness.html">Cloudiness</a>
+                        <a class="dropdown-item" href="WindSpeed.html">Wind Speed</a>
+                    </div>
+            </li>
+        </ul>	    								  
+    </div>  				  
+</div>
+</nav>
+              
+              <div class="container">
+                <div class="row">
+                   <div class="col-md-1"></div>  
+                    <div class="col-md-6">
+                    <h1>Humidity</h1>
+                      <img src="Resources/assets/images/Humidity.png" width="400" height="350">
+                      <p>The correlation between latitude and humidity was weak.</p>
+                    </div>    
+                    <div class="col-md-4 sidebar">
+                    <div class="row">
+                        <div class="col-md-12">
+                        <h1>Visualizations</h1>
+                    </div>
+                </div>
+                     <div class="row">
+              
+                        <div class="col-md-3">    
+                             <a href="MaxTemp.html">Max_Temperature<img src="Resources/assets/images/Max Temp.png" width="200px" height="150px"></a>
+                        </div>
+                        <div class="col-md-3"></div>                      
+                        <div class="col-md-3">  
+                             <a href="Humidity.html">Humidity<img src="Resources/assets/images/Humidity.png" width="200px" height="150px"></a>
+                        </div>
+                        <div class="col-md-3"></div>  
+                     </div>   
+                     <div class ="row"> 
+                        
+                        <div class="col-md-3">  
+                          <a href="Cloudiness.html">Cloudiness<img src="Resources/assets/images/Cloudiness.png" width="200px" height="150px"></a>
+                        </div>
+                        <div class="col-md-3"></div>
+                        
+                        <div class="col-md-3">     
+                          <a href="WindSpeed.html">Wind_Speed<img src="Resources/assets/images/Wind Speed.png" width="200px" height="150px"></a>
+                        </div>
+                        <div class="col-md-3"></div>
+                      </div>    
+                   </div>         
+                  <div class="col-md-1"></div>
+                </div>      
+              </div>
+  <!-- Footer Section -->
+  <footer>
+    <div class="footer">Copyright &copy; Weather Data 2020</div>
+  </footer>
+<!-- Bootstrap JS -->
+<script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN"
+crossorigin="anonymous"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q"
+crossorigin="anonymous"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl"
+crossorigin="anonymous"></script>
+<script src="http://use.fontawesome.com/releases/v5.0.8/js/all.js"></script>	                	 	
+</body>	
+
+</html>
